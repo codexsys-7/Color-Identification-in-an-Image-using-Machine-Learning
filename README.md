@@ -33,7 +33,7 @@ So, before execution we have some pre-requisites that we need to download or ins
 (It should be run on your terminal)
 
 # Data Description
-So, we have used multiple combination of plain colored images with 7 basic day to day used colors. These images are fed to color_histogram_extraction file where each image is converted into a specific RGB format along with its color class(0->Red, 1->Blue,..). These are then used to train our KNN classifier model. whenever we try to predict any color of an image, we need to pass the whole image, or we can test it out by converting that image into rgb foramt and passing it to KNN classifer to predict the color.
+So, we have used multiple combination of plain colored images with 7 basic day to day used colors. These images are fed to color_histogram_extraction file where each image is converted into a specific RGB format along with its color class(0->Red, 1->Blue,..). These are then used to train our KNN classifier model. whenever we try to predict any color of an image, we need to pass the whole image, or we can test it out by converting that image into rgb format and passing it to KNN classifer to predict the color.
 
 # Issues Faced.
 1. we might face an issue while installing specific libraries.
